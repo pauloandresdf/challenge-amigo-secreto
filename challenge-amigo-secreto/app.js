@@ -17,7 +17,7 @@ function adicionarAmigo() {
     if (/\d/.test(valorAmigo)) {
     alert('Insira nome valido, atualmente possue numeros');
     nomeAmigo.value = '';
-    return:
+    return;
     }
 
 // Adiciona o amigo à lista e limpa o campo
@@ -27,10 +27,15 @@ function adicionarAmigo() {
 mostrarUL();
 }
  
+// Função para atualizar a lista na interface
 function mostrarUL () {
-    let listaAmigos = document.querySelector('ul');
-    const ultimoAmigo = listaAmigos[listaAmigos.length - 1];
-    let li = document.createElement('li');
-    li.textContent = ultimoAmigo;
-    listaHTML.appendchild(li);
+    let listaHTML = document.querySelector('#listaAmigos');
+    listaHTML.innerHTML = ''; // Limpa a lista antes de recriar
+
+    listaAmigos.forEach(amigo => {
+        let li = document.createElement('li');
+        li.textContent = amigo;
+        listaHTML.appendChild(li);
+    });
 }
+
