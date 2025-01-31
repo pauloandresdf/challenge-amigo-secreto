@@ -58,4 +58,9 @@ function sortearAmigo() {
     listaAmigos = []; // Esvazia o array
     document.querySelector("#listaAmigos").innerHTML = ''; // Remove os nomes da lista visual
     document.querySelector("#amigo").value = ''; // Limpa o campo de entrada
+
+     // Aguarda 3 segundos e limpa o sorteado também
+     setTimeout(() => {
+        resultado.innerHTML = ''; // Apaga o nome sorteado após um tempo
+    }, 3000);
 }
