@@ -17,11 +17,14 @@ function adicionarAmigo() {
     if (/\d/.test(valorAmigo)) {
     alert('Insira nome valido, atualmente possue numeros');
     nomeAmigo.value = '';
-    mensagemInicial();
-}else {
+    return:
+    }
+
+// Adiciona o amigo à lista e limpa o campo
     listaAmigos.push(valorAmigo);
     nomeAmigo.value = '';
-    mostrarUL();
+// Atualiza a lista na tela
+mostrarUL();
 }
  
 function mostrarUL () {
