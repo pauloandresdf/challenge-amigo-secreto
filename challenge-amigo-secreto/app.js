@@ -46,9 +46,16 @@ function sortearAmigo() {
         return;
     }
 
+    //Sorteia um amigo
     let indiceSorteado = Math.floor(Math.random() * listaAmigos.length);
     let amigoSorteado = listaAmigos[indiceSorteado];
 
+     // Exibe o sorteado e limpa a lista anterior
     let resultado = document.querySelector("#resultado");
     resultado.innerHTML = `<li>${amigoSorteado}</li>`;
+
+    // Limpa os campos e a lista após o sorteio
+    listaAmigos = []; // Esvazia o array
+    document.querySelector("#listaAmigos").innerHTML = ''; // Remove os nomes da lista visual
+    document.querySelector("#amigo").value = ''; // Limpa o campo de entrada
 }
