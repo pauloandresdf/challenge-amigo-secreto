@@ -33,9 +33,3 @@ Você pode acessar o projeto online clicando no link abaixo:
 👉 [Jogo Amigo Secreto](https://pauloandresdf.github.io/challenge-amigo-secreto/)
 &nbsp;  
 &nbsp;  
-
-##  Créditos e Agradecimentos 
-
-Quero agradecer à [Alura](https://github.com/alura-cursos) e à [Oracle](https://github.com/oracle) pelo conhecimento compartilhado e pelas oportunidades proporcionadas por meio do programa **<Hello, ONE!>**.
-&nbsp;  
-&nbsp;  
