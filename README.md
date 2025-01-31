@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="" />
+    <img src="https://github.com/pauloandresdf/challenge-amigo-secreto/blob/main/challenge-amigo-secreto/assets/chalasjfisaf.png" />
   </a>
 </div>
 
