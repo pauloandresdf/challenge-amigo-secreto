@@ -39,3 +39,16 @@ function mostrarUL () {
     });
 }
 
+// Função para sortear amigo
+function sortearAmigo() {
+    if (listaAmigos.length === 0) {
+        alert("Adicione pelo menos um amigo antes de sortear!");
+        return;
+    }
+
+    let indiceSorteado = Math.floor(Math.random() * listaAmigos.length);
+    let amigoSorteado = listaAmigos[indiceSorteado];
+
+    let resultado = document.querySelector("#resultado");
+    resultado.innerHTML = `<li>${amigoSorteado}</li>`;
+}
