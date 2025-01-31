@@ -6,7 +6,7 @@
   </a>
 </div>
 
-##  Projeto 
+## ⭐ Projeto 
 
 Este projeto consiste em um jogo interativo de **Amigo Secreto**, onde os usuários podem adicionar os nomes dos amigos e sortear quem ficará com quem. O jogo permite que você adicione amigos, faça sorteios e visualize os resultados de forma dinâmica.
 
@@ -34,10 +34,8 @@ Você pode acessar o projeto online clicando no link abaixo:
 &nbsp;  
 &nbsp;  
 
-##  Créditos e Agradecimentos
+##  Créditos e Agradecimentos 
 
-Agradeço pelo trabalho incrível! ✨💛  
-
-Também quero agradecer à [Alura](https://github.com/alura-cursos) e à [Oracle](https://github.com/oracle) pelo conhecimento compartilhado e pelas oportunidades proporcionadas por meio do programa **<Hello, ONE!>**.
+Quero agradecer à [Alura](https://github.com/alura-cursos) e à [Oracle](https://github.com/oracle) pelo conhecimento compartilhado e pelas oportunidades proporcionadas por meio do programa **<Hello, ONE!>**.
 &nbsp;  
 &nbsp;  
