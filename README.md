@@ -6,7 +6,7 @@
   </a>
 </div>
 
-## ⭐ Projeto 
+## ⭐ Chalange Amigo Secreto 
 
 Este projeto consiste em um jogo interativo de **Amigo Secreto**, onde os usuários podem adicionar os nomes dos amigos e sortear quem ficará com quem. O jogo permite que você adicione amigos, faça sorteios e visualize os resultados de forma dinâmica.
 
